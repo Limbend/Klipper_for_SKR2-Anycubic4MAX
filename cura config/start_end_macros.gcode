@@ -35,5 +35,9 @@ M107
 G91 ;relative positioning
 G1 E-1 F300 ;retract the filament a bit before lifting the nozzle, to release some of the pressure
 G1 Z+5 E-5 ;X-20 Y-20 F{speed_travel} ;move Z up a bit and retract filament even more
+G1 Z+5 
+G1 Z+5
+G28 X Y
 M84 ; disable motors
+end_music
 G90
