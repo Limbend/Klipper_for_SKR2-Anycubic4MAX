@@ -9,6 +9,7 @@ M140 S[first_layer_bed_temperature] ; Нагреваем стол до зада�
 M104 S[first_layer_temperature] T0 ; Нагреваем ХОТЕНД до заданной температуры.
 M190 S[first_layer_bed_temperature] ; Ждем нагрева стола.
 M109 S[first_layer_temperature] T0 ; Ждем нагрева ХОТЕНДА.
+start_music
 G28 X0 Y0 ;move X/Y to min endstops
 G28 Z0 ;move Z to min endstops
 G1 Z15.0 F[travel_speed] ;move the platform down 15mm
