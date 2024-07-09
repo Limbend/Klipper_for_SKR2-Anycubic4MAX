@@ -1,0 +1,3 @@
+[submodule "klipper-config-4max-skr2"]
+	path = klipper-config-4max-skr2
+	url = git@limben.ru:services/klipper-config-4max-skr2.git
